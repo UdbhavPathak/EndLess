@@ -1,4 +1,5 @@
 import random
+import sys
 import pygame
 import animation
 import sprite
@@ -212,6 +213,7 @@ class Game:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
+                    sys.exit()
                     break
 
                 if event.type == pygame.KEYDOWN:
