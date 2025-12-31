@@ -283,7 +283,7 @@ class Crystals(pygame.sprite.Sprite):
         self.init_pos = [*pos]
         self.animation.centralize = True
         self.vel = 0
-        self.aura = animation.Aura([(255,255,255),(0,0,100)],[1,3],25,*self.rect.center)
+        #self.aura = animation.Aura([(255,255,255),(0,0,100)],[1,3],25,*self.rect.center)
         self.burst = animation.GlowBurst()
         self.burst.limit = 20
     def show(self,win):
