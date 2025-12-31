@@ -200,7 +200,7 @@ class GlowBurst:
     def __init__(self):
         self.size = [1,4]
         self.vel = [1,4]
-        self.color = [(255,255,255),(0,50,150)]
+        self.color = [(255,255,255),(0,70,35)]
         self.limit = 20
         self.particles = []
         self.rate = 0.15
